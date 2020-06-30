@@ -1,3 +1,7 @@
+
+
+
+
 package com.techdrop;
 
 import java.util.Map;
@@ -12,7 +16,8 @@ public class WelcomeController
 
 	// inject via application.properties
 	@Value("${welcome.message:test}")
-	private String message = "Hello World";
+
+	private String message = "Hello Worldrma;
 
 	@RequestMapping("/")
 	public String welcome(Map<String, Object> model) {
