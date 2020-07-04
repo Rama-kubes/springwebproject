@@ -62,7 +62,7 @@
        <repository>
              <id>releases</id>
              <!-- CHANGE HERE by your team nexus server -->
-             <url>http://10.0.2.15:8081/repositories/SAMPLE-REL//</url>
+             <url>http://10.0.2.15:8081/repositories/SAMPLE-REL/</url>
       </repository>
       <snapshotRepository>
             <id>deployment</id>
